@@ -12,8 +12,8 @@ some changes have been made like for e.g.
 but those are only for the paid version
 for the public version there are:
 
-> log4j security update
-> better support on github
-> more developers
+> log4j security update <br/>
+> better support on github <br/>
+> more developers <br/>
 
 and i hope you enjoy your public version if you havnt bought it yet.
