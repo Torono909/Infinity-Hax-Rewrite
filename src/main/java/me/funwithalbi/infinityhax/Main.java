@@ -28,8 +28,5 @@ public class Main
 	  // credits: funwithalbi, google_was_my_idea
          // verify loading
         logger.info("Loaded Infinity Hax. Infinity incursion remastered on top!")
-		
-        // some obsidian logger test code
-        logger.info("OBBY >> {}", Blocks.OBSIDIAN.getRegistryName());
     }
 }
