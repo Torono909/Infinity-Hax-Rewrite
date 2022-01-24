@@ -25,7 +25,7 @@ public class Main
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-	  // credits: funwithalbi, google_was_my_idea
+	  // credits: FunWithAlbi, ExyrusYT, google_was_my_idea
          // verify loading
         logger.info("Loaded Infinity Hax. Infinity incursion remastered on top!")
     }
