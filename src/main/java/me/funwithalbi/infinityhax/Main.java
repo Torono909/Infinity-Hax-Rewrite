@@ -1,32 +1,37 @@
 package me.funwithalbi.infinityhax;
 
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import me.funwithalbi.infinityhax.util.Settings;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Main.MODID, name = Main.NAME, version = Main.VERSION)
+@Mod(modid = Settings.MODID, name = Settings.NAME, version = Settings.VERSION)
 public class Main
 {
-    public static final String MODID = "infhx";
-    public static final String NAME = "Infinity-Hax";
-    public static final String VERSION = "0.12-2";
-
     private static Logger logger;
+	
+	@Instance
+	public Main instance;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
+        logger.info("Loading preInit for mod Infinity-Hax");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-	  // credits: FunWithAlbi, ExyrusYT, google_was_my_idea
-         // verify loading
-        logger.info("Loaded Infinity Hax. Infinity incursion remastered on top!")
+		// verify loading
+        logger.info("Loaded Infinity Hax Infinity incursion on top!");
+		
     }
+	
+	@EventHandler
+	public void PostInit (FMLInitializationEvent event) {
+	
+	}
 }
