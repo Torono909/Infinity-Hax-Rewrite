@@ -1,4 +1,4 @@
-package me.funwithalbi.infinity-hax;
+package me.funwithalbi.infinityhax;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
