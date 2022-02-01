@@ -17,17 +17,29 @@ public class Module {
     category = c;
     toggled = false;
   }
+  public void toggle() {
+   toggled = !toggled;
+    if (toggled) {
+      onEnable();
+    }else {
+      onDisable();
+    }
+  }
+  public void onEnable() {}
+  public void onDisable(){}
+  public void onUpdate() {}
+  public void onRender() {}
   
   public getMc() {
     return mc;
   }
-  public void setMc(Minecraft mc){
+  public void setMc(Minecraft mc) {
     this.mc = mc;
   }
   public String getName() {
     return name;
   }
-  public void setName(String name){
+  public void setName(String name) {
     this.name = name;
   }
   public int getKey() {
@@ -36,10 +48,10 @@ public class Module {
   public void setKey(int key) {
     this.key = key;
   }
-  public Category category() {
-  return category;
+  public boolean isToggled() {
+    return toggled;
   }
-  public void category(){
-    this.category = category;
+  public void setToggled() {
+    this.toggled = togggled;
   }
 }
