@@ -1,5 +1,6 @@
 package me.funwithalbi.infinityhax;
 
+import me.funwithalbi.infinityhax.module.ModuleManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -12,6 +13,7 @@ public class Main {
     public static final String NAME = "Infinity-Hax";
     public static final String VERSION = "0.12-2"
     private static Logger logger;
+    public static ModuleManager moduleManager;
 	
 	@Instance
 	public Main instance;
