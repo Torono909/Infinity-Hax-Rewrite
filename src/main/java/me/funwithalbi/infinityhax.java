@@ -4,10 +4,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import me.funwithalbi.infinityhax.util.Settings;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Settings.MODID, name = Settings.NAME, version = Settings.VERSION)
+@Mod(modid = INFINITYHAX.MODID, name = INFINITYHAX.NAME, version = INFINITYHAX.VERSION)
 public class Main {
     public static final String MODID = "infhx";
     public static final String NAME = "Infinity-Hax";
