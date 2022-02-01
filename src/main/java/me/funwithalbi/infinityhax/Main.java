@@ -8,8 +8,10 @@ import me.funwithalbi.infinityhax.util.Settings;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = Settings.MODID, name = Settings.NAME, version = Settings.VERSION)
-public class Main
-{
+public class Main {
+    public static final String MODID = "infhx";
+    public static final String NAME = "Infinity-Hax";
+    public static final String VERSION = "0.12-2"
     private static Logger logger;
 	
 	@Instance
