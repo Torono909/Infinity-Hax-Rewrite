@@ -28,6 +28,7 @@ public class Main {
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+	
 	    // verify loading
         Display.setTitle(name + " v" + version)
         logger.info("Loaded Infinity Hax Infinity incursion on top!");
