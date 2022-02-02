@@ -11,7 +11,7 @@ import org.apache.logging.log4j.Logger;
 public class Main {
     public static final String MODID = "infhx";
     public static final String NAME = "Infinity-Hax";
-    public static final String VERSION = "0.12-2"
+    public static final String VERSION = "0.12-2";
     private static Logger logger;
     public static ModuleManager moduleManager;
 	
@@ -30,7 +30,7 @@ public class Main {
     {
 	    // verify loading
 	moduleManager = new ModuleManager();
-        Display.setTitle(name + " v" + version)
+        Display.setTitle(name + " v" + version);
         logger.info("Loaded Infinity Hax Infinity incursion on top!");	
     }
 	
