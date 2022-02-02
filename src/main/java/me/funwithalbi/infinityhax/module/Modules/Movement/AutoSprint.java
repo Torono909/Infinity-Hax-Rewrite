@@ -1,5 +1,20 @@
 package me.funwithalbi.infinityhax.module.modules.movement;
 
-public class AutoSprint() {
-  
+import me.funwithalbi.infinityhax.module.Category;
+import me.funwithalbi.infinityhax.module.Module;
+
+public class AutoSprint() extends Module {
+  public AutoSprint() {
+    super("AutoSprint", Keyboard.KEY_O, Category.MOVEMENT)
+  }
+  public void onEnable() {
+    if(this.isToggled()) {
+      mc.thePlayer.setSprinting(true);
+      super.onEnable();
+    }
+  }
+  public void onDisable() {
+    mc.thePlayer.setSprinting(false)
+      super.onDisable();
+  }
 }
