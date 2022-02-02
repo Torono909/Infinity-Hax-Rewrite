@@ -3,7 +3,7 @@ package me.funwithalbi.infinityhax.module;
 import java.util.ArrayList;
 import me.funwithalbi.infinityhax.module.modules.movement.autosprint;
 
-public class ModuleManager {
+public class ModuleManager{
   
   private static ArrayList<Module> modules;
   
