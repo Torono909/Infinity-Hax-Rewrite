@@ -3,7 +3,7 @@ package me.funwithalbi.infinityhax.module.modules.movement;
 import me.funwithalbi.infinityhax.module.Category;
 import me.funwithalbi.infinityhax.module.Module;
 
-public class AutoSprint() extends Module {
+public class AutoSprint() extends Module{
   public AutoSprint() {
     super("AutoSprint", Keyboard.KEY_O, Category.MOVEMENT);
   }
