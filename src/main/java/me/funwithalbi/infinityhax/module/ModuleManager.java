@@ -1,13 +1,14 @@
 package me.funwithalbi.infinityhax.module;
 
 import java.util.ArrayList;
+import me.funwithalbi.infinityhax.module.modules.movement.autosprint;
 
 public class ModuleManager {
   
   private static ArrayList<Module> modules;
   
   public ModuleManager() {
-    mods = new ArrayList<Module>();
+    modules = new ArrayList<Module>();
     //COMBAT
     
     //EXPLOIT
@@ -15,7 +16,7 @@ public class ModuleManager {
     //PLAYER
     
     //MOVEMENT
-    
+    newModule(new AutoSprint());
     //RENDER
     
     //MISC
