@@ -31,12 +31,23 @@ public class Main {
 	    // verify loading
 	moduleManager = new ModuleManager();
         Display.setTitle(name + " v" + version)
-        logger.info("Loaded Infinity Hax Infinity incursion on top!");
-		
+        logger.info("Loaded Infinity Hax Infinity incursion on top!");	
     }
 	
 	@EventHandler
 	public void PostInit (FMLInitializationEvent event) {
 	
 	}
+	public class BendingGuiOverlay extends Gui
+    {
+        String text;
+        
+        public BendingGuiOverlay(final Minecraft mc) {
+            this.text = name + " v" + version;
+            final ScaledResolution scaled = new ScaledResolution(mc);
+            final int width = scaled.func_78326_a();
+            final int height = scaled.func_78328_b();
+            this.func_73732_a(mc.field_71466_p, this.text, width / 2, height / 2 - 4, Integer.parseInt("FFAA00", 16));
+        }
+    }
 }
