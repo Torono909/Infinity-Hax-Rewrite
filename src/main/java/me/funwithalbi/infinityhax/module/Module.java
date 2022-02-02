@@ -2,7 +2,7 @@ package me.funwithalbi.infinityhax.module;
 
 import net.minecraft.client.Minecraft;
 
-public class Module {
+public class Module{
   /* Torono909/Google_was_my_idea is a legend */
   
   protected Minecraft mc = minecraft.getMinecraft();
