@@ -9,6 +9,10 @@ public class Flight extends Module{
   public Flight() {
     super("Flight", KEYBOARD.KEY_G, Category.MOVEMENT);
   }
+  public void onDisable() {
+    mc.thePlayer.capabilites.isFlying = false;
+    super.onDisable();
+  }
   public static float ChangedSpeed = 0.1f;
   public void onUpdate(){
     if(this.isToggled()){
@@ -21,8 +25,9 @@ public class Flight extends Module{
         mc.thePlayer.motionY -= 0.2;
       }
       if(mc.gameSettings.keyBindForward.isPressed()){
-        mc.thePlayer.capabilites.setFlySpeed(ChangedSpeed)
+        mc.thePlayer.capabilites.setFlySpeed(ChangedSpeed);
       }
+      super.onUpdate();
     }
   }
 }
