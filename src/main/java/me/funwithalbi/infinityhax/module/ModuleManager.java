@@ -2,6 +2,7 @@ package me.funwithalbi.infinityhax.module;
 
 import java.util.ArrayList;
 import me.funwithalbi.infinityhax.module.modules.movement.autosprint;
+import me.funwithalbi.infinityhax.module.modules.movement.Flight;
 
 public class ModuleManager{
   
