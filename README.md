@@ -10,8 +10,9 @@ some changes have been made like for e.g.
 > constant updates <br/>
 
 but those are only for the paid version
-for the public version there are:
+for the free version there are:
 
+> PacketFly Phase <br/>
 > log4j security update <br/>
 > better support on github <br/>
 > more developers <br/>
