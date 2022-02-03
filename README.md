@@ -17,4 +17,4 @@ for the free version there are:
 > better support on github <br/>
 > more developers <br/>
 
-and i hope you enjoy your public version if you havnt bought it yet.
+and i hope you enjoy paid version if you haven"t bought it yet.
