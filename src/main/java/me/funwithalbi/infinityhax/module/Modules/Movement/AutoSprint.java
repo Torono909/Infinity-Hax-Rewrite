@@ -1,5 +1,6 @@
 package me.funwithalbi.infinityhax.module.modules.movement;
 
+import net.minecraft.*
 import me.funwithalbi.infinityhax.module.Category;
 import me.funwithalbi.infinityhax.module.Module;
 import org.lwjgl.input.keyboard;
