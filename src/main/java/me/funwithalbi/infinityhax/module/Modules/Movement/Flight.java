@@ -1,8 +1,9 @@
 package me.funwithalbi.infinityhax.module.Modules.Movement;
 
 import net.minecraft.*
-import org.lwjgl.input.Keyboard;
+import me.funwithalbi.infinityhax.module.Category;
 import me.funwithalbi.infinityhax.module.Module;
+import org.lwjgl.input.Keyboard;
 
 public class Flight extends Module{
   public Flight() {
