@@ -17,6 +17,7 @@ public class ModuleManager{
     //PLAYER
     
     //MOVEMENT
+    newModule(new Flight());
     newModule(new AutoSprint());
     //RENDER
     
