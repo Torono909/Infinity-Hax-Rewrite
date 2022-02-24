@@ -6,8 +6,11 @@ This is a client for 1.12.2 developed for infinity incursioners (9b/5b/2b) on my
 
 some changes have been made like for e.g.
 > better security <br/>
-> better packetfly <br/>
+> better packetfly phase <br/>
 > constant updates <br/>
+> log4j security update </br>
+> better support on github </br>
+> more developers </br>
 
 but those are only for the paid version
 for the free version there are:
