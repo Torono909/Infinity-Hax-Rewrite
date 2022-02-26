@@ -1,4 +1,4 @@
-package me.amfero.razmorozka.module;
+package me.funwithalbi.infinityhax.module;
 
 public enum Category {
     COMBAT("Combat"),
