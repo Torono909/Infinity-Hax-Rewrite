@@ -1,49 +1,36 @@
-package me.funwithalbi.infinityhax.module;
+package me.amfero.razmorozka.module;
 
 import java.util.ArrayList;
-import me.funwithalbi.infinityhax.module.modules.movement.autosprint;
-import me.funwithalbi.infinityhax.module.modules.movement.Flight;
+import java.util.stream.Collectors;
 
-public class ModuleManager{
-  
-  private static ArrayList<Module> modules;
-  
-  public ModuleManager() {
-    modules = new ArrayList<Module>();
-    //COMBAT
-    
-    //EXPLOIT
-    
-    //PLAYER
-    
-    //MOVEMENT
-    newModule(new Flight());
-    newModule(new AutoSprint());
-    //RENDER
-    
-    //MISC
-    
-  }
-  public static void newModule(Module m) {
-    modules.add(m);
-  }
-  public static ArrayList<Module> getModules() {
-    return modules;
-  }
-  public static void onUpdate() {
-    for(Module m : modules) {
-      m.onUpdate();
+public class ModuleManager {
+    private final ArrayList<Module> modules = new ArrayList();
+
+    public ModuleManager() {
     }
-  }
-  public static void onRender() {
-    for(Module m : modules) {
-      m.onRender();
+
+    public ArrayList<Module> getModules() {
+        return this.modules;
     }
-  }
-  public static void onKey(int k) {
-    for(Module m : modules) {
-      if (m.getKey == k)
-      m.toggle();
+
+    public Module getModule(String name) {
+        for (Module module : this.modules) {
+            if (!module.getName().equalsIgnoreCase(name)) continue;
+            return module;
+        }
+        return null;
     }
-  }
+
+    public ArrayList<Module> getModules(Category category) {
+        ArrayList<Module> mods = new ArrayList<Module>();
+        for (Module module : this.modules) {
+            if (!module.getCategory().equals((Object)category)) continue;
+            mods.add(module);
+        }
+        return mods;
+    }
+
+    public ArrayList<Module> getEnabledModules() {
+        return this.modules.stream().filter(Module::isEnabled).collect(Collectors.toCollection(ArrayList::new));
+    }
 }
