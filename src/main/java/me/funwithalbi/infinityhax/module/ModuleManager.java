@@ -1,4 +1,4 @@
-package me.amfero.razmorozka.module;
+package me.funwithalbi.infinityhax.module;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
