@@ -7,7 +7,7 @@ client development currently dead but check out phobos 1.5.1!
 
 some changes have been made like for e.g.
 > better security <br/>
-> better packetfly phase <br/>
+> better Packetfly & Phase <br/>
 > constant updates <br/>
 > log4j security update </br>
 > better support on github </br>
@@ -16,7 +16,7 @@ some changes have been made like for e.g.
 but those are only for the paid version
 for the free version there are:
 
-> PacketFly Phase <br/>
+> PacketFly & Phase <br/>
 > log4j security update <br/>
 > better support on github <br/>
 > more developers <br/>
