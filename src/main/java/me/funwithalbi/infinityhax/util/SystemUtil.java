@@ -1,4 +1,4 @@
-package club.cpacket.hwid.util;
+package me.funwithalbi.infinityhax.util;
 
 import net.minecraft.client.Minecraft;
 import org.apache.commons.codec.digest.DigestUtils;
