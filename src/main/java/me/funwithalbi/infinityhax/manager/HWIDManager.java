@@ -1,9 +1,9 @@
-package club.cpacket.hwid.manager;
+package me.funwithalbi.infinityhax.manager;
 
-import club.cpacket.hwid.util.DisplayUtil;
-import club.cpacket.hwid.util.NoStackTraceThrowable;
-import club.cpacket.hwid.util.SystemUtil;
-import club.cpacket.hwid.util.URLReader;
+import me.funwithalbi.infinityhax.util.DisplayUtil;
+import me.funwithalbi.infinityhax.util.NoStackTraceThrowable;
+import me.funwithalbi.infinityhax.util.SystemUtil;
+import me.funwithalbi.infinityhax.util.URLReader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class HWIDManager {
      * It should be a raw pastebin link, for example: pastebin.com/raw/pasteid
      */
 
-    public static final String pastebinURL = "";
+    public static final String pastebinURL = "https://pastebin.com/R6cWV1vc";
 
     public static List<String> hwids = new ArrayList<>();
 
