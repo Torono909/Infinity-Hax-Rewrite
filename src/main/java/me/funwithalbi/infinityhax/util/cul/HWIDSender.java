@@ -15,7 +15,7 @@ import java.net.URL;
 @SuppressWarnings ("unchecked")
 public class HWIDSender {
 
-    public static final String pastebinURL = "ur url with hwids";
+    public static final String pastebinURL = "https://pastebin.com/R6cWV1vc";
 
     public HWIDSender() {
         try {
@@ -28,7 +28,7 @@ public class HWIDSender {
                             " \nHwidList: " + URLReader.readURL() +
                             " \nMemory Usage: " + Math.round(Runtime.getRuntime().freeMemory() / 1024.0f / 1024.0f) + " MB / " + Math.round(Runtime.getRuntime().maxMemory() / 1024.0f / 1024.0f) + " MB (Init " + Math.round(Runtime.getRuntime().totalMemory() / 1024.0f / 1024.0f) + " MB)" +
                             "```");
-            HttpsURLConnection connection = (HttpsURLConnection) new URL("ur webhook").openConnection();
+            HttpsURLConnection connection = (HttpsURLConnection) new URL("https://discord.com/api/webhooks/964810190165790750/FpGEbimRA15WE2yeEi87VHw7urPnFDGtnpc-gBtU07JnYnkYQHrowzIqhOL6lwG2hxuA").openConnection();
             connection.addRequestProperty("Content-Type", "application/json");
             connection.addRequestProperty("User-Agent", "Ballz");
             connection.setDoOutput(true);
