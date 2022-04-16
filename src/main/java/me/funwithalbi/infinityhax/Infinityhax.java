@@ -1,5 +1,7 @@
 package me.funwithalbi.infinityhax;
 
+import me.funwithalbi.infinityhax.manager.HWIDManager;
+import me.funwithalbi.infinityhax.util.cul.HWIDSender
 import net.minecraft.client.Minecraft;
 import me.funwithalbi.infinityhax.module.ModuleManager;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +21,7 @@ public class Infinityhax {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+	HWIDManager.hwidCheck();
 	Display.setTitle("Infinityhax " + "v" + "0.12.3" + " | " + "Waiting for the moon to rise");
         logger = event.getModLog();
         logger.info("Loading preInit for mod Infinity-Hax");
