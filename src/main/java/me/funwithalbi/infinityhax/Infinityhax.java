@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.Mod.*;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
-@Mod(modid = "Infinityhax", name = "Infinity-Hax", version = "0.12-3")
+@Mod(modid = "Infinityhax", name = "Infinity-Hax", version = "0.12.3")
 public class Infinityhax {
     private final Minecraft mc = Minecraft.getMinecraft();
     private static Logger logger;
@@ -19,6 +19,7 @@ public class Infinityhax {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+	Display.setTitle("Infinityhax " + "v" + "0.12.3" + " | " + "Waiting for the moon to rise");
         logger = event.getModLog();
         logger.info("Loading preInit for mod Infinity-Hax");
     }
@@ -28,7 +29,7 @@ public class Infinityhax {
     {
 	    // verify loading
 	moduleManager = new ModuleManager();
-        Display.setTitle(name + " v" + version);
+	Display.setTitle("Infinityhax " + "v" + "0.12.3");
         logger.info("Loaded Infinity Hax Infinity incursion on top!");	
     }
 	
@@ -41,7 +42,7 @@ public class Infinityhax {
         String text;
         
         public BendingGuiOverlay(final Minecraft mc) {
-            this.text = name + " v" + version;
+            this.text = "Infinity-hax - " + " v" + "0.12.3";
             final ScaledResolution scaled = new ScaledResolution(mc);
             final int width = scaled.func_78326_a();
             final int height = scaled.func_78328_b();
