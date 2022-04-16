@@ -1,6 +1,6 @@
-package club.cpacket.hwid.util;
+package me.funwithalbi.infinityhax.util;
 
-import club.cpacket.hwid.manager.HWIDManager;
+import me.funwithalbi.infinityhax.manager.HWIDManager;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
