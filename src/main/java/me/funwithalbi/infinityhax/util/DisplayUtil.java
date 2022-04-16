@@ -1,4 +1,4 @@
-package club.cpacket.hwid.util;
+package me.funwithalbi.infinityhax.util;
 
 import javax.swing.*;
 import java.awt.*;
