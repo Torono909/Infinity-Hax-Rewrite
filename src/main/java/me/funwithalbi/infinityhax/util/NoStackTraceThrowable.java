@@ -1,6 +1,4 @@
-package club.cpacket.hwid.util;
-
-import club.cpacket.hwid.HWIDAuthMod;
+package me.funwithalbi.infinityhax.util;
 
 public class NoStackTraceThrowable extends RuntimeException {
 
@@ -11,7 +9,7 @@ public class NoStackTraceThrowable extends RuntimeException {
 
     @Override
     public String toString() {
-        return "" + HWIDAuthMod.getVersion();
+        return "" + "0.12.3";
     }
 
     @Override
