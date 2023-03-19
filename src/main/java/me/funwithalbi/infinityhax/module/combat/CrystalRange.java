@@ -10,10 +10,10 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-public class AntiEndCrystal extends Module
+public class CrystalRange extends Module
 {
 	
-	public AntiEndCrystal(String name, String description, Category category) {
+	public CrystalRange(String name, String description, Category category) {
         super(name, description, category);
     }
     
