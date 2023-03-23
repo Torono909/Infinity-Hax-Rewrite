@@ -1,4 +1,10 @@
-public class FlyAbility {
+public class Flight {
+    	Setting soft = new Setting("Soft", this, false);
+    public Setting mode;
+    
+	public Flight(String name, String description, Category category) {
+		super(name, description, category);
+    }
     
     // The fly speed
     private static final float FLY_SPEED = 0.05f;
