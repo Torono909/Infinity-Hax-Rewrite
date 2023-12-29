@@ -9,9 +9,9 @@ buildscript {
 }
         
 apply plugin: 'net.minecraftforge.gradle'
-version = '0.12-2'
+version = '1.23.1'
 group = 'me.funwithalbi.infinityhax'
-archivesBaseName = 'infinity-hax'
+archivesBaseName = 'Infinityhax'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -42,7 +42,7 @@ jar {
     manifest {
         attributes([
             "Specification-Title": "Infinity-Hax",
-            "Specification-Vendor": "infinityhx",
+            "Specification-Vendor": "infinityhax",
             "Specification-Version": "0.12-2",
         ])
     }
