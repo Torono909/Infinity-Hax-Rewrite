@@ -1,14 +1,14 @@
 [
 {
-  "modid": "infhx",
+  "modid": "infinityhax",
   "name": "Infinity-Hax",
   "description": "this is the official hacked client for infinity incursion remastered",
-  "version": "0.12-2",
+  "version": "1.23.1",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["FunWithAlbi"], ["ExyrusYT"]
-  "credits": "FunWithAlbi for making the gui and some modules, ExyrusYT for making some modules and helping. google_was_my_idea for helping. (not rn lol)",
+  "authorList": ["Zone"], ["OOFFOOFF"]
+  "credits": "Zone, OOFFOOFF",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
