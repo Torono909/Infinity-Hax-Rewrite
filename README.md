@@ -1,24 +1,13 @@
-# Infinity-Hax
-This is a client for 1.12.2 developed for infinity incursioners (9b/5b/2b) on my group "infinity incursion remastered"</br>
-still not updated
+# InfinityHax
+<b>InfinityHax Is a client made by funwithalbi, xavier, nykname, zone and OOFFOOFF for 8b8t</b>
+<b>InfinityHax Was a client which was coded from scratch.</b>
 
+# Info
+<b>This client was a client made in 2021 never updated.</b>
+<b>Me (Zone/PlsGiveMeAKit) and OOFFOOFF are updating this client again and we started to work on this project</b>
 
-# Change-LOG
+# Change log
+Nothing changed for now
 
-some changes have been made like for e.g.
-> better security <br/>
-> better Packetfly & Phase <br/>
-> constant updates <br/>
-> log4j security update </br>
-> better support on github </br>
-> more developers </br>
-
-but those are only for the paid version
-for the free version there are:
-
-> PacketFly & Phase <br/>
-> log4j security update <br/>
-> better support on github <br/>
-> more developers <br/>
-
-and i hope you enjoy paid version if you haven't bought it yet.
+# Credits
+Some public clients who allowed me to skid them lol!
