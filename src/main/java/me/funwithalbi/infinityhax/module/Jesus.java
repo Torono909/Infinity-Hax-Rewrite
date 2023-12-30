@@ -1,5 +1,6 @@
 package me.funwithalbi.infinityhax.module;
 
+import me.funwithalbi.infinityhax.*;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
