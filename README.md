@@ -7,7 +7,10 @@
 <b>Me (Zone/PlsGiveMeAKit) and OOFFOOFF are updating this client again and we started to work on this project</b>
 
 # Change log
-Nothing changed for now
+Added AutoCrystal
+Added Offhand
+Added Packetfly
 
 # Credits
-Some public clients who allowed me to skid them lol!
+Some public clients who allowed me to skid them lol!</br>
+ChatGPT
