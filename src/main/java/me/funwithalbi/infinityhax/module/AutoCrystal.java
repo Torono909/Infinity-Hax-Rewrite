@@ -11,7 +11,7 @@ import net.minecraftforge.client.event.RenderWorldLastEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class AutoCrystalModule extends Module {
+public class AutoCrystal extends Module {
     private int placeRange = 5;
     private int delayBetweenPlacements = 0;
     private boolean onlyVisible = true;
@@ -22,9 +22,8 @@ public class AutoCrystalModule extends Module {
     private int ticksToPlace = 0;
     private int ticksSinceLastPlace = 0;
 
-    public AutoCrystalModule() {
-        super("AutoCrystal", Category.COMBAT);
-        setDescription("Automatically places and detonates crystals");
+    public AutoCrystal() {
+        super("AutoCrystal", Category.COMBAT, "Coded By Daddy ChatGPT 4");
         addSettings();
         initialize();
     }
